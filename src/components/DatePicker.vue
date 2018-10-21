@@ -269,11 +269,7 @@ export default {
       return styles;
     },
     popoverContentStyle() {
-      return {
-        ...this.themeStyles.wrapper,
-        padding: '0',
-        margin: '0',
-      };
+      return this.themeStyles.wrapper;
     },
   },
   watch: {
